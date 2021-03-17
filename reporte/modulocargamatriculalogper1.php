@@ -57,9 +57,11 @@
 			<td width="">Disc</td>
             <td width="">tipo</td>
             <td width="">SV</td>
+			<td width="">RFC</td>
+            <td width="">TEL</td>
         </tr>
         <?php
-		$alumnos="select distinct a.matricula, a.curp, a.app, a.apm, a.nom, a.status, a.propre, a.fecnac, a.sexo, a.idcar, a.email, a.discap  from alumnos as a, horario as h, cursa as c where h.idh=c.idh and a.matricula=c.matricula and a.idcar='ILOG-2009-202' and h.periodo='$periodo' order by a.idcar, a.status;";
+		$alumnos="select distinct a.matricula, a.curp, a.telal, a.app, a.apm, a.nom, a.status, a.propre, a.fecnac, a.sexo, a.idcar, a.email, a.discap  from alumnos as a, horario as h, cursa as c where h.idh=c.idh and a.matricula=c.matricula and a.idcar='ILOG-2009-202' and h.periodo='$periodo' order by a.idcar, a.status;";
 		$als=mysql_query($alumnos,$conexion); 
 		$f=0;
 		while($a=mysql_fetch_object($als))
@@ -171,6 +173,8 @@
 				}
 				echo"<td>";
 				
+
+				$rfc = substr("$a->curp", 0, 10);
 				printf("%d",$sumcred); 
 				echo"</td>
 				<td></td>
@@ -178,6 +182,8 @@
 				<td>"; if($a->discap==1){echo "S";}else{echo"N";} echo"</td>
 				<td></td>		
 				<td align='center'>S</td>
+				<td align=''>$rfc</td> 
+				<td align=''>$a->telal</td> 
 				</tr>
 						"; 
 
