@@ -1,0 +1,1040 @@
+@charset "utf-8";
+
+@font-face {
+
+    font-family: 'MontserratBlack';
+    src: url('font/Montserrat-Black.ttf');
+    src: local('☺'),
+         url('font/Montserrat-Black.ttf') format('truetype');    
+}
+
+@font-face {
+    font-family: 'MontserratMedium';
+    src: url('font/Montserrat-Medium.ttf');
+    src: local('☺'),
+         url('font/Montserrat-Medium.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: 'MontserratBold';
+    src: url('font/Montserrat-Bold.ttf');
+    src: local('☺'),
+         url('font/Montserrat-Bold.ttf') format('truetype');
+}
+
+
+/* GENERAL ------------------------------------------------------------*/
+* {
+margin: 0px;
+padding: 0px;
+}
+
+header, section, footer, nav{
+display: block;
+}
+
+body {
+	background: #fafafa;
+   color: #2F2F2F;
+   font: 12px "MontserratMedium", Calibri, sans-serif;
+}
+
+
+
+#cuerpo {
+width: 980px;
+margin: 10px auto;
+text-align: left;
+}
+#cuerpo .liga a{
+	font-family:MontserratBlack;
+	font-size:14px;
+	color:#497F43;}
+	
+#sistema{
+color:#ba2025; 
+	font: 18px "MontserratBold";
+	background:#FFFFFF;
+	border: 1px solid #999999;
+	padding: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;}
+
+#titulo {
+	color:#ba2025; 
+	font: 12px "MontserratMedium";
+	background:#FFFFFF;
+	width: 978px;
+	margin:5px;
+	padding: 5px;
+	
+}
+/* BARRA DE LINKS */
+#barra_herramientas
+{
+   height: 35px;
+   width: 980px;
+}
+#acceso
+{
+    float: left;
+    padding: 8px 0 0 300px;	
+    font: 11px "MontserratBold", Calibri, sans-serif;
+    text-transform:  uppercase;
+}
+#acceso a 
+{    
+    padding: 5px 2px;                
+}
+
+/*FIN DE BARRA DE LINKS*/
+/*LOGOS*/
+#logos
+{
+    height: 80px;  
+    width: 990px;    
+}
+#logo_sep_nombre_tec
+{    
+    float:left; 
+    width: 750px;
+}
+#logo_sep_nombre_tec #logo_sep
+{
+    float: left;   
+}
+#logo_sep_nombre_tec #nombre 
+{       
+    float: right;    
+    margin-top: 25px;
+    padding: 5px;
+    width: 450px;
+}
+#nombre label
+{
+    font: 17px "titularbold", Calibri, sans-serif;
+    color:#98979C;  
+}
+#logo_dgest_tec
+{
+    float:right;  
+    padding: 16px 0px;
+}
+#logo_dgest_tec a 
+{
+    padding: 5px 8px;    
+}
+/*LOGOS*/
+
+/*INICIO DE MENU DE NAVEGACIN*/
+ #nav { margin-bottom: 5px; }
+ #nav ul { list-style-type: none; }
+ #nav #nav-bar { background: #fafafa;height: 40px; margin-top: 13px; width: 980px; padding: 0 10px; margin-left: -20px;  }
+ #nav #nav-bar > ul > li {background: #fafafa; float: left;  position: relative; font:11px 'MontserratBold';}
+ #nav #nav-bar > ul > li:before {  display: block; height: 11px; width: 8px; text-indent: -9999px; content: ""; float: left; margin: 13px 12px 0; }
+ #nav #nav-bar > ul > li:first-child:before { content: none; display: none; }
+ #nav #nav-bar > ul > li > a { border-left: 1px solid transparent; border-right: 1px solid transparent; color: #5f5e5c; float: left; height: 37px; line-height: 37px; padding: 0 16px; position: relative; z-index: 20; margin-top: 2px;}
+ #nav #nav-bar > ul > li > a.selected { color: #cf242a; }
+ #nav #nav-bar > ul > li:hover > a { background: #fbfbfb; border-left-color: #CCCCCC; border-right-color: #CCCCCC; text-decoration: none; }
+ #nav .submenu { 
+ background: #dfdfdf;  
+ /* for IE */ -ms-filter: ; /* for IE */ 
+ background-image: -webkit-gradient(linear, left top, left bottom, from(#fbfbfb), to(#cbcbcb)); /* for webkit browsers */ 
+ background-image: -moz-linear-gradient(center top, #fbfbfb, #cbcbcb); /* for firefox 3.6+ */ 
+ border: 1px solid #fafafa; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25); display: none; font: 13px/14px serif; margin-left: 35px; min-width: 140px; padding: 18px; position: absolute; text-transform: uppercase; top: 39px; z-index: 15; }
+ #nav .submenu a { color: #545454; font:10px 'MontserratMedium'; }
+ #nav .submenu ul li { border-top: 1px solid #ffffff; padding: 8px 5px; text-align: left; white-space: nowrap; }
+ #nav .submenu ul li:first-child { border-top: 0; }
+ #nav .submenu ul li a { display: block; }
+
+#nav #galeria-submenu { overflow: hidden; margin-left: -40px; padding-right: 28px 30px 28px 28px; width: 560px;}
+#nav #galeria-submenu .left { float: left; width: 120px; padding: 0 10px;  }
+#nav #galeria-submenu .left h3 { font:14px 'MontserratMedium'; margin: 0 0 20px 5px; text-transform: none; }
+#nav #galeria-submenu .left ul li { white-space: normal; }
+
+/*FIN DE MENU DE NAVEGACIN*/
+
+
+
+#seccion {
+	font-family:'MontserratMedium';
+padding:5px 0px 0px 0px;
+float: left;
+width: 980px;
+margin:0px 0px 5px 0px;
+/*background-image:url(aguila.jpg); background-position:bottom, center;
+background-repeat:no-repeat;*/
+}
+
+.avisono{
+	font-family:MontserratBlack;
+	font-size:16px;
+	color:#A5273F;
+	background-color:#CF0;
+	text-align:center}
+	
+.avisosi{
+	font-family:MontserratBlack;
+	font-size:16px;
+	color:#497f43;
+	background-color:#ffffff;
+	text-align:center}
+
+.liga a{
+	font-family:MontserratBlack;
+	font-size:14px;
+	color:#497F43;}
+.nommat{
+	font-family:MontserratBlack;
+	font-size:14px;
+	color:#497F43;}
+
+#seccion .subtitulo{
+	font-family:MontserratBlack;
+	font-size:16px;
+	color:#497F43;}
+
+#seccion .subtitulo2{
+	font-family:MontserratBlack;
+	font-size:16px;
+	color:#000000;}
+	
+#seccion #header table{
+width:980px;
+border-left:none;
+border-top:none;
+border-right:none;
+	}
+	
+#seccion #header th{
+	font: 12px "sansultra", Calibri, sans-serif;
+    text-transform:  uppercase;
+	color:#B92025;
+	border-top:none;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;}
+
+#seccion #header td{
+	font: 10px "MontserratMedium", Calibri, sans-serif;
+    text-transform:  uppercase;
+	border-top:none;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;}
+
+/*sdfsdfsdf*/
+
+#seccion #header #revision table{
+width:980px;
+border-spacing:0px;
+border-right:solid 1px #000000;
+border-bottom:solid 1px #000000;
+
+}
+#seccion #header #revision td a{
+	color:#497F43;}
+#seccion #header #revisions th{
+font: 14px "sans_lightbold", Calibri, sans-serif;
+    text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-top: solid 1px #000000;
+border-left: solid 1px #000000;
+cellspacing:0px;}
+
+
+#seccion #header #revision td{
+	font: 12px "MontserratMedium", Calibri, sans-serif;
+color:#333333;
+border-left: solid 1px #000000;
+border-top:solid 1px #666666;
+}
+/*asdfadsf*/
+
+#seccion #pregunta table{
+width:980px;
+border-spacing:0px;
+border-right:none;
+border-bottom:none;
+border-left:none;
+border-top:none;
+}
+#seccion #pregunta th{
+font: 14px "sansultra", Calibri, sans-serif;
+    text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-top: none;
+border-left: none;
+cellspacing:0px;}
+
+
+#seccion #pregunta td{
+	font: 12px "MontserratMedium", Calibri, sans-serif;
+color:#333333;
+border-left: none;
+border-top:none;
+}
+
+/* boletas */
+#seccion #boleta table{
+width:980px;
+border-spacing:0px;
+border-right:solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left:solid 1px #000000;
+
+}
+#seccion #boleta td a{
+	color:#497F43;}
+
+#seccion #boleta th{
+font: 14px "sans_lightbold", Calibri, sans-serif;
+    text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-top: solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left: solid 1px #000000;
+cellspacing:0px;}
+
+#seccion #boleta td{
+	font: 12px "MontserratMedium", Calibri, sans-serif;
+color:#333333;
+border-left: solid 1px #000000;
+border-left-style:dotted;
+border-top:solid 1px #666666;
+border-top-style:dotted;
+}
+
+/*  termina boleta*/ 
+
+
+
+#seccion #registros .prom{
+	font: 10px "MontserratMedium", Calibri, sans-serif;
+	color: #000;
+	text-decoration: none;
+}
+
+#seccion #registros table{
+width:980px;
+border-spacing:0px;
+border-right:solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left:solid 1px #000000;
+
+}
+#seccion #registros td a{
+	color:#497F43;}
+#seccion #registros th{
+font: 14px "sans_lightbold", Calibri, sans-serif;
+    text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-top: solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left: solid 1px #000000;
+cellspacing:0px;}
+
+
+#seccion #registros td .ligado{
+	color:#A5273F;
+	background-color:#CF0;
+	font: 9px "MontserratMedium", Calibri, sans-serif;
+}
+#seccion #registros .tdf{
+	background-color:#AEADB3;
+	color:#000000;}
+	
+#seccion #registros .tdle{
+	font-size:10px;
+	text-align:center;}
+
+#seccion #registros td{
+	font: 12px "MontserratMedium", Calibri, sans-serif;
+color:#333333;
+border-left: solid 1px #000000;
+border-left-style:dotted;
+border-top:solid 1px #666666;
+border-top-style:dotted;
+}
+
+#seccion #registros .ho{
+	color:#ffffff;
+	background-color:#03F;}
+
+#seccion #registros .mu{
+	color:#ffffff;
+	background-color:#C6F;
+	}
+
+#seccion #registros table .titulotabla {
+	text-align:center;
+	color:#ba2025; font: 15px "MontserratBlack", Calibri, sans-serif; outline:none; text-decoration: none;
+	background:#FFFFFF;
+	border: 1px solid #999999;
+	padding: 10px;
+}
+
+
+
+#seccion #registros form table{
+border:none;}
+
+#seccion #registros form th{
+font: 14px "sans_lightbold", Calibri, sans-serif;
+text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-left:none;
+border-bottom:none;
+border-top:none;
+border-right:none;
+}
+
+#seccion #registros form td{
+padding:3px;
+border-left:none;
+border-bottom:none;
+border-top:none;
+border-right:none;
+}
+#seccion #registros form input,select{
+	font-size:11px;
+border-left:#CCC solid 1px;
+border-bottom:#CCC solid 1px;
+border-top:none;
+border-right:none;
+}
+/* pie de pagina */
+#pie{
+	font-family:'MontserratMedium';
+width:980px;
+margin: 18px auto 0;
+
+}
+
+#pie p {
+    color: gray;
+    font-size: 11px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#titlepie{
+font-size:14px;
+	text-align:center;
+	border-bottom:double #dedede;
+	border-top:double #dedede;
+	}
+
+.bloqueo {
+    display: block;
+    height: 25px;
+	background:#666666;
+}
+
+#reticula
+{
+	background-color:transparent;
+}
+
+#reticula table{
+	width:980px;
+	border-spacing:8px;
+	}
+
+#reticula th{
+	font: 11px "sans_lightbold", Calibri, sans-serif;
+    text-transform:  uppercase;
+	text-align:center;
+	color:#B92025;
+}
+#reticula td{
+	height: auto;
+	width:100px;
+	text-align:center;
+	border-top: solid 1px #555;
+	border-bottom:solid 1px #555;
+	border-left: solid 1px #555;
+	border-right:solid 1px #555;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
+	border-radius: 7px;
+}
+
+#reticula .cursaord{
+	background-color:#33CCFF;
+	-moz-box-shadow: rgb(150,150,150) 10px 10px 10px;
+	-webkit-box-shadow: rgb(150,150,150) 10px 10px 10px;
+	box-shadow: rgb(150,150,150) 10px 10px 10px;
+}
+#reticula .cursarep{
+	background-color:#FF9900;
+	-moz-box-shadow: rgb(150,150,150) 10px 10px 10px;
+	-webkit-box-shadow: rgb(150,150,150) 10px 10px 10px;
+	box-shadow: rgb(150,150,150) 10px 10px 10px;
+}
+#reticula .cursaesp{
+	background-color:#FF0000;
+	-moz-box-shadow: rgb(150,150,150) 10px 10px 10px;
+	-webkit-box-shadow: rgb(150,150,150) 10px 10px 10px;
+	box-shadow: rgb(150,150,150) 10px 10px 10px;
+}
+#reticula .cursaglo{
+	background-color:#FF99FF;
+	-moz-box-shadow: rgb(150,150,150) 10px 10px 10px;
+	-webkit-box-shadow: rgb(150,150,150) 10px 10px 10px;
+	box-shadow: rgb(150,150,150) 10px 10px 10px;
+}
+
+#reticula .aprob{
+	background-color:#CCFF00;
+}
+
+#reticula .repro{
+	background-color:#C0C0C0;
+}
+
+#reticula td .materia{
+	font: 9px "sans_lightbold", Calibri, sans-serif;
+	padding:3px 0px;
+}
+#reticula td .idmat{
+	text-align:center;
+	color:#B92025;
+	font: 10px "MontserratBlack", Calibri, sans-serif;
+	padding:3px;
+}
+
+#reticula td .reprobo{
+	text-align:right;
+	font: 12px "MontserratBlack", Calibri, sans-serif;
+	color:#F00;
+	}
+	
+	
+#reticula td > .nums{
+	width:100px;
+	text-align:center;
+	border-spacing:0px;
+	/*border-top: solid 1px #000000;
+	border-bottom:solid 1px #000000;
+	border-left: solid 1px #000000;
+	border-right:solid 1px #000000;*/}
+
+
+#reticula .agregar{
+	font: 10px "MontserratBlack", Calibri, sans-serif;
+	background-color:#CCFF00;
+	text-decoration: none;
+}
+
+
+#seccion #lista form th{
+font: 14px "sans_lightbold", Calibri, sans-serif;
+text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-left:none;
+border-bottom:none;
+border-top:none;
+border-right:none;
+}
+
+#seccion #lista table{
+width:980px;
+border-spacing:0px;
+border-right:solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left:solid 1px #000000;
+
+}
+
+#seccion #lista th{
+	height:100px;
+font: 11px "sans_lightbold", Calibri, sans-serif;
+    text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-top: solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left: solid 1px #000000;
+cellspacing:0px;}
+
+
+
+#seccion #lista td{
+	font: 12px "MontserratMedium", Calibri, sans-serif;
+color:#333333;
+border-left: solid 1px #000000;
+border-left-style:dotted;
+border-top:solid 1px #666666;
+border-top-style:dotted;
+}
+.SaltoDePagina
+{
+page-break-before:always;
+}
+#scicom{
+color:#ba2025; 
+	font: 18px "MontserratBold";
+	background:#FFFFFF;
+	border: 1px solid #999999;
+	padding: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;}
+/* CLASE PARA REDIMENSIONAR IMAGENES*/
+.imagen{
+   width: 50px;
+  height: 30px; 
+}
+.icono{
+     width: 20px;
+  height:20px;  
+}
+
+.credencial{
+	
+	width:981px;
+	height:280px;
+	margin:0px auto;
+	border:1px solid  #000000;
+	border-style:dotted;}
+	
+.credelado {
+	border-left:1px solid #000000;
+	border-left-style:dotted;
+	width:487px;
+	height:inherit;
+	float:left;
+	}
+.logotec img
+{
+	width:86px;
+	height:59px;
+	padding:5px 5px 0px 5px;
+	float:left;
+	}
+
+.nomtec{
+	float:left;
+	width:380px;
+	height:25;
+	font: 15px "titularbold", Calibri, sans-serif;
+    color:#333;
+	padding:10px 5px;
+	text-align:center;
+	margin-bottom:15px;
+	}
+.lineasalto{
+	clear:both;}
+
+.nombiblio{
+	font: 15px "titularbold", Calibri, sans-serif;
+	padding:0px;
+	}
+
+.etiqueta{
+	float:left;
+	padding:0px 5px 0px 30px;
+	width:100px;
+	font: 12px "sansbold", Calibri, sans-serif;}
+
+.dato{
+	float:left;
+	padding:0px 5px 0px 0px;
+	width:290px;
+	font: 14px "MontserratMedium", Calibri, sans-serif;}
+
+.carrera{
+	float:left;
+	padding:0px 5px 0px 135px;
+	width:55px;
+	font: 12px "sansbold", Calibri, sans-serif;}
+
+.datocarr{
+	float:left;
+	padding:0px 5px 0px 0px;
+	width:250px;
+	font: 14px "MontserratMedium", Calibri, sans-serif;}	
+	
+
+.direc{
+	float:right;
+	width:330px;
+	margin-top:60px;
+	border-top:2px solid #000;
+	text-align:center;
+	font: 14px "sansbold", Calibri, sans-serif;
+	margin-right:20px;}
+
+.credelogosep img{
+	width:215px;
+	height:60px;
+	padding:5px;
+	float:left
+	display:block;}
+
+.credelogodgest img{
+	width:100px;
+	height:50px;
+	padding:20px 0px 20px 150px;
+	}
+
+.otrolado{
+	width:398px;
+	padding-top:20px;
+	margin:0px auto;
+	}
+.datoestu{
+	float:left;
+	width:80px;
+	border:1px solid #000;
+	border-collapse:collapse;
+	height:40px;
+	font: 13px "sansbold", Calibri, sans-serif;}
+.datoestu2{
+	float:left;
+	width:310px;
+	border:1px solid #000;
+	border-collapse:collapse;
+	height:40px;
+	}
+.refrendo{
+	float:left;
+	margin-top:5px;
+	margin-left:10px;}	
+.refrendo table{
+	width:200px;
+	border:1px solid #000;
+	border-collapse:collapse;
+	text-align:center;}
+.refrendo th{
+	border:1px solid #000;
+	font: 10px "MontserratMedium", Calibri, sans-serif;
+	}
+
+.refrendo td{
+	border:1px solid #000;
+	font: 10px "MontserratMedium", Calibri, sans-serif;
+	}
+
+.firma{
+	float:right;
+	width:250px;
+	margin-top:40px;
+	border-top:2px solid #000;
+	text-align:center;
+	font: 12px "MontserratMedium", Calibri, sans-serif;
+	margin-right:20px;}
+
+#seccion #evadoc{
+	background: #F4F4F4;
+}
+#seccion #evadoc table{
+width:980px;
+border:none;
+
+}
+#seccion #evadoc td a{
+	color:#497F43;}
+#seccion #evadoc th{
+font: 14px "sans_lightbold", Calibri, sans-serif;
+    text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border:none;
+cellspacing:0px;}
+
+#seccion #evadoc .tdf{
+	background-color:#AEADB3;
+	color:#000000;}
+	
+#seccion #evadoc .tdle{
+	font-size:10px;
+	text-align:center;}
+
+#seccion #evadoc td{
+	font: 12px "MontserratMedium", Calibri, sans-serif;
+color:#333333;
+border:none;
+}
+/*INICIO DE CSS PARA EVALDOC*/
+#seccion #evadoc table{
+width:980px;
+border-spacing:0px;
+border-right:solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left:solid 1px #000000;
+
+}
+#seccion #evadoc td a{
+	color:#497F43;}
+#seccion #evadoc th{
+font: 14px "sans_lightbold", Calibri, sans-serif;
+    text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-top: solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left: solid 1px #000000;
+cellspacing:0px;}
+
+#seccion #evadoc td{
+	font: 12px "MontserratMedium", Calibri, sans-serif;
+color:#333333;
+border-left: solid 1px #000000;
+border-left-style:dotted;
+border-top:solid 1px #666666;
+border-top-style:dotted;
+}
+
+#seccion #evadoc table .titulotabla {
+	text-align:left;
+	color:#497f43; font: 15px "MontserratBlack", Calibri, sans-serif; outline:none; text-decoration: none;
+	background:#FFFFFF;
+	border: 1px solid #999999;
+	padding: 5px;
+}
+
+#seccion #evadoc table .resul {
+	text-align:center;
+	color:#0AAA0E; font: 12px "MontserratMedium", Calibri, sans-serif; outline:none; text-decoration: none;
+	
+}
+
+#seccion #evadoc table .resumod {
+	text-align:right;
+	color:#a5273f; font: 13px "MontserratBlack", Calibri, sans-serif; outline:none; text-decoration: none;
+	background: #F4F4F4;
+}
+#seccion #evadoc table .grantotal {
+	text-align:center;
+	color:#497f43; font: 16px "MontserratBlack", Calibri, sans-serif; outline:none; text-decoration: none;
+	background: #Fafafa;
+}
+
+
+/*--------- INICIO DE CALIFICACIONES-------------*/
+#calificareg table{
+width:1000px;
+border-spacing:0px;
+border-right:solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left:solid 1px #000000;
+
+}
+#calificareg td a{
+	color:#497F43;}
+#calificareg th{
+font: 12px "sans_lightbold", Calibri, sans-serif;
+    text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-top: solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left: solid 1px #000000;
+cellspacing:0px;
+}
+
+#calificareg td{
+	font: 10px "MontserratMedium", Calibri, sans-serif;
+color:#333333;
+border-left: solid 1px #000000;
+border-left-style:dotted;
+border-top:solid 1px #666666;
+border-top-style:dotted;
+}
+
+#calificareg table .titulotabla {
+	text-align:center;
+	color:#ba2025; font: 15px "MontserratBlack", Calibri, sans-serif; outline:none; text-decoration: none;
+	background:#FFFFFF;
+	border: 1px solid #999999;
+	padding: 10px;
+}
+
+#calificareg form table{
+border:none;}
+
+#calificareg input{
+	font-size: 11px;
+	background:#fafafa;
+border:none;
+text-align:right;
+}
+
+.cals{
+	width:28px;}
+/*---------- FIN DE CALIFICACIONES --------------*/
+
+/*IMPRESION DE REPORTES DE ACADEMICOS*/
+#seccion #registrosrep{
+    height: 360px;
+    background: none;
+}
+#seccion #registrosrep  table{
+width:1000px;
+border-spacing:0px;
+border-right:solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left:solid 1px #000000;
+
+}
+#seccion #registrosrep td a{
+    color:#497F43;}
+#seccion #registrosrep th{
+font: 14px "sans_lightbold", Calibri, sans-serif;
+    text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-top: solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left: solid 1px #000000;
+font-weight: normal;}
+
+
+#seccion #registrosrep td{
+    font: 12px "MontserratMedium", Calibri, sans-serif;
+color:#333333;
+border-left: solid 1px #000000;
+border-left-style:dotted;
+border-top:solid 1px #666666;
+border-top-style:dotted;
+}
+#seccion #registrosrep .reportedatos table{
+    border: none;
+}
+#seccion #registrosrep .reportedatos td{
+    font-size: 9px;
+    border: none;
+
+}
+#seccion #avance{
+	margin: 100px auto;
+	width: 800px;
+	font: 16px "MontserratMedium", Calibri, sans-serif;
+	color: #000;
+	text-align: justify; 
+	text-decoration: none;
+}
+#seccion #avance .eslogan{
+	
+	font: 9px "MontserratBlack", Calibri, sans-serif;
+	color: #000;
+	text-align: justify; 
+	text-decoration: none;
+}
+#seccion #avance .fecha{
+	
+	font: 16px "MontserratMedium", Calibri, sans-serif;
+	color: #000;
+	text-align: right; 
+	text-decoration: none;
+}
+
+/*calificaciones*/
+
+#califica .prom{
+	font: 10px "MontserratMedium", Calibri, sans-serif;
+	color: #000;
+	text-decoration: none;
+}
+
+#califica table{
+width:980px;
+border-spacing:0px;
+border-right:solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left:solid 1px #000000;
+
+}
+#califica td a{
+	color:#497F43;}
+#califica th{
+font: 14px "sans_lightbold", Calibri, sans-serif;
+    text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-top: solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left: solid 1px #000000;
+cellspacing:0px;}
+
+
+#califica td .ligado{
+	color:#A5273F;
+	background-color:#CF0;
+	font: 9px "MontserratMedium", Calibri, sans-serif;
+}
+#califica .tdf{
+	background-color:#AEADB3;
+	color:#000000;}
+	
+#califica .tdle{
+	font-size:10px;
+	text-align:center;}
+
+#califica td{
+	font: 12px "MontserratMedium", Calibri, sans-serif;
+color:#333333;
+border-left: solid 1px #000000;
+border-left-style:dotted;
+border-top:solid 1px #666666;
+border-top-style:dotted;
+}
+
+#califica .ho{
+	color:#ffffff;
+	background-color:#03F;}
+
+#califica .mu{
+	color:#ffffff;
+	background-color:#C6F;
+	}
+
+#califica table .titulotabla {
+	text-align:center;
+	color:#ba2025; font: 15px "MontserratBlack", Calibri, sans-serif; outline:none; text-decoration: none;
+	background:#FFFFFF;
+	border: 1px solid #999999;
+	padding: 10px;
+}
+
+
+
+#califica form table{
+border:none;}
+
+#califica form th{
+font: 14px "sans_lightbold", Calibri, sans-serif;
+text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-left:none;
+border-bottom:none;
+border-top:none;
+border-right:none;
+}
+
+#califica form td{
+padding:3px;
+border-left:none;
+border-bottom:none;
+border-top:none;
+border-right:none;
+}
+#califica form input,select{
+	font-size:11px;
+border-left:#CCC solid 1px;
+border-bottom:#CCC solid 1px;
+border-top:none;
+border-right:none;
+}
+/*fin calificaciones*/

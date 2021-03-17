@@ -1,0 +1,118 @@
+Microsoft Windows [Versión 10.0.14393]
+(c) 2016 Microsoft Corporation. Todos los derechos reservados.
+
+C:\wamp\bin\mysql\mysql5.0.51b\bin>msyql -u root -p
+"msyql" no se reconoce como un comando interno o externo,
+programa o archivo por lotes ejecutable.
+
+C:\wamp\bin\mysql\mysql5.0.51b\bin>
+C:\wamp\bin\mysql\mysql5.0.51b\bin>mysql -u root -p
+Enter password:
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 18
+Server version: 5.0.51b-community-nt MySQL Community Edition (GPL)
+
+Type 'help;' or '\h' for help. Type '\c' to clear the buffer.
+
+mysql> use sapce
+Database changed
+mysql> create table certificado(
+    -> matricula varchar(9) NOT NULL primary key,
+    -> numero varchar(10),
+    -> libro varchar(10),
+    -> foja varchar(10),
+    -> fecha varchar(11),
+    -> periodo varchar(100),
+    -> fechaexp varchar(100)
+    -> )ENGINE=InnoDB DEFAULT CHARSET=latin1;
+Query OK, 0 rows affected (0.13 sec)
+
+mysql> ('131090040','0273','1','011','2018-01-19','AGOSTO DE 2013 A JUNIO DE 2018','A LOS TRES  DÍAS DEL MES DE JUNIO DE DOS MIL DIECINUEVE'),
+    -> ('141090091','0390','1','016','2019-06-03','AGOSTO DE 2014 A JUNIO DE 2019','A LOS DIECINUEVE DIAS DEL MES DE ENERO DE DOS MIL DIECIOCHO'),
+    -> ('141090135','0421','1','017','2019-06-03','AGOSTO DE 2014 A JUNIO DE 2019','A LOS TRES DIAS DEL MES DE JUNIO DE DOS MIL DIECINUEVE');
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''131090040','0273','1','011','2018-01-19','AGOSTO DE 2013 A JUNIO DE 2018','A LO' at line 1
+mysql> insert certificado values
+    -> ('141090146','0442','1','018','2019-10-01','AGOSTO DE 2014 A DICIEMBRE 2018','AL DIA UNO DEL MES DE OCTUBRE DE DOS MIL DIECINUEVE'),
+    -> ('131090040','0273','1','011','2018-01-19','AGOSTO DE 2013 A JUNIO DE 2018','A LOS TRES  DÍAS DEL MES DE JUNIO DE DOS MIL DIECINUEVE'),
+    -> ('141090091','0390','1','016','2019-06-03','AGOSTO DE 2014 A JUNIO DE 2019','A LOS DIECINUEVE DIAS DEL MES DE ENERO DE DOS MIL DIECIOCHO'),
+    -> ('141090135','0421','1','017','2019-06-03','AGOSTO DE 2014 A JUNIO DE 2019','A LOS TRES DIAS DEL MES DE JUNIO DE DOS MIL DIECINUEVE');
+Query OK, 4 rows affected (0.06 sec)
+Records: 4  Duplicates: 0  Warnings: 0
+
+mysql>
+mysql>
+mysql> INSERT INTO `encarga` (`iddepto`, `idoc`,`status`) VALUES
+    -> ('DIR', 'CUELLAR', 1),
+    -> ('SE', 'CACP850919UE5', 1);
+Query OK, 2 rows affected, 1 warning (0.11 sec)
+Records: 2  Duplicates: 0  Warnings: 0
+
+mysql> insert into alumnos (matricula, idcar) ('191110044','ITIC-225-2010');
+ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''191110044','ITIC-225-2010')' at line 1
+mysql> insert into alumnos (matricula, idcar) values ('191110044','ITIC-225-2010');
+ERROR 1452 (23000): Cannot add or update a child row: a foreign key constraint fails (`sapce/alumnos`, CONSTRAINT `alumnos_ibfk_1` FOREIGN KEY (`idcar`) REFERENCES `carrera` (`idcar`) ON UPDATE CASCADE)
+mysql> select * from carrera;
++---------------+--------------------------------------------------------------+--------+---------+------+----------+
+| idcar         | descar                                                       | status | credito | cvec | reticula |
++---------------+--------------------------------------------------------------+--------+---------+------+----------+
+| IADM-2010-213 | INGENIER?A EN ADMINISTRACI?N                                 |      1 |     260 | 001  | 2010     |
+| ILOG-2009-202 | INGENIERIA EN LOGISTICA                                      |      1 |     260 | 003  | 2009     |
+| ITIC-2010-225 | INGENIERIA EN TECNOLOGIAS DE LA INFORMACION Y COMUNICACIONES |      1 |     260 | 002  | 2010     |
+| POR ASIGNAR   | CARRERA SIN ASIGNAR                                          |      1 |       0 |      |          |
++---------------+--------------------------------------------------------------+--------+---------+------+----------+
+4 rows in set (0.00 sec)
+
+mysql> insert into alumnos (matricula, idcar) values ('191110044','ITIC-2010-225');
+Query OK, 1 row affected, 1 warning (0.06 sec)
+
+mysql> drop table certificado;
+Query OK, 0 rows affected (0.03 sec)
+
+mysql> select * from encarga;
++---------+---------------+------------+--------+------------+------------------------------------------+
+| iddepto | idoc          | fecha      | status | fechafin   | passd                                    |
++---------+---------------+------------+--------+------------+------------------------------------------+
+| CI      | AAHC8205301RA | 0000-00-00 |      1 | 0000-00-00 | bbb8c606d6374fa666ddd77d455bc26a55d74d8c |
+| DEP     | FOLE820216Q45 | 0000-00-00 |      1 | 0000-00-00 | 2ab9e73848a9934560caf045e0c8ef672008c6c6 |
+| DIR     | CUELLAR       | 0000-00-00 |      1 | NULL       | NULL                                     |
+| RF      | SOGC8411097R7 | 0000-00-00 |      1 | 0000-00-00 | 2ab9e73848a9934560caf045e0c8ef672008c6c6 |
+| SE      | CACP850919UE5 | 0000-00-00 |      1 | NULL       | NULL                                     |
+| VIN     | ITZEL         | 2020-03-02 |      1 | 2020-02-02 | a51ec818a5192561ff6d349cdf497f1cc5088017 |
+| VIN     | MERA881111NY7 | 0000-00-00 |      0 | 2020-02-02 | 46cd9c64af37b2dc7f097209a95408d0d950bdf4 |
++---------+---------------+------------+--------+------------+------------------------------------------+
+7 rows in set (0.00 sec)
+
+mysql> delete from encarga where iddepto='dir';
+Query OK, 1 row affected (0.08 sec)
+
+mysql> delete from encarga where iddepto='se';
+Query OK, 1 row affected (0.07 sec)
+
+mysql> delete from encarga where iddepto='se';
+Query OK, 1 row affected (0.03 sec)
+
+mysql> delete from encarga where iddepto='dir';
+Query OK, 1 row affected (0.02 sec)
+
+mysql> drop table certificado;
+Query OK, 0 rows affected (0.09 sec)
+
+mysql> select * from certificado;
+ERROR 1146 (42S02): Table 'sapce.certificado' doesn't exist
+mysql> ('141090091','0390','1','016','2019-06-03','AGOSTO DE 2014 A JUNIO DE 2019','A LOS DIECINUEVE DIAS DEL MES DE ENERO DE DOS MIL DIECIOCHO'),
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

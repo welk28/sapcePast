@@ -1,0 +1,105 @@
+@charset "utf-8";
+
+@font-face {
+
+    font-family: 'humanist';
+    src: url('humanist-521-bt_73.ttf');
+    src: local('☺'),
+         url('humanist-521-bt_73.ttf') format('truetype');    
+}
+
+/* GENERAL ------------------------------------------------------------*/
+* {
+margin: 0px;
+padding: 0px;
+}
+
+header, section, footer, nav{
+display: block;
+}
+
+body {
+	background: #fafafa;
+   color: #2F2F2F;
+   font: 10px "humanist", Calibri, sans-serif;
+}
+table{
+   font: 12px "humanist", Calibri, sans-serif;
+}
+/*inicia medidas*/
+#bodycertifica {
+	width: 1000px; /*ancho total del certificado*/
+	height: 1300px; /*alto total del certificado (si se mueve, mover tambien .Datoalumno, .lateral, .calificaciones, .)*/
+}
+
+.Dalumno{
+	width: 685; /*despliegue de datos (carrera, director, periodo, etc)*/
+	height: 125px;
+	padding-left: 275px;
+	padding-right: 40px;
+	padding-top: 55px;
+}
+
+.lateral{
+	width: 200px; /*espacio destinado a la foto, datos de jefatura, folio (si se meueve, mover tambien .calificaciones)*/
+	height: 285px;
+	padding-top: 720px;
+}
+.calificaciones{
+	width: 725px; /*despliegue de calificaciones e historial (si se mueve, mover tambien de .lateral)*/
+	height: 985px;
+	padding-top: 20px;
+	padding-left: 75px;
+}
+
+.firma{
+	width: 720px;
+	height: 80px;
+	text-align: justify;
+	padding-left: 250px;
+	padding-right: 30px;
+	padding-top: 20px;
+	
+}
+.promedio{
+	display: block;
+	float: left;
+	width: 260px;
+	height: 15px;
+	padding-left: 740px;
+	background-color: white;
+	font: 12px "humanist", Calibri, sans-serif;
+}
+
+/*termina medidas*/
+#bodycertifica {
+	margin: 10px auto;
+	background-color: white; 
+}
+
+.Dalumno{
+	display: block;
+	float: left;
+	text-align: justify;
+	background-color: white; 
+	font: 14px "humanist", Calibri, sans-serif;
+}
+
+.lateral{
+	display: block;
+	float: left;
+	background-color: white;
+	font: 12px "humanist", Calibri, sans-serif; 
+}
+.calificaciones{
+	display: block;
+	background-color: white;
+	float: left;
+}
+
+.firma{
+	display: block;
+	float: left;
+	background-color: white;
+	font: 13px "humanist", Calibri, sans-serif;
+}

@@ -1,0 +1,228 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'titularbold';
+    src: url('font/soberanatitular-bold-webfont.eot');
+    src: local('☺'),
+         url('font/soberanatitular-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanatitular-bold-webfont.woff') format('woff'),
+         url('font/soberanatitular-bold-webfont.ttf') format('truetype'),
+         url('font/soberanatitular-bold-webfont.svg#soberana_titularbold') format('svg');
+}
+@font-face {
+    font-family: 'titularregular';
+    src: url('font/soberanatitular-regular-webfont.eot');
+    src: local('☺'),
+         url('font/soberanatitular-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanatitular-regular-webfont.woff') format('woff'),
+         url('font/soberanatitular-regular-webfont.ttf') format('truetype'),
+         url('font/soberanatitular-regular-webfont.svg#soberana_titularregular') format('svg');    
+}
+@font-face {
+    font-family: 'sansbold';
+    src: url('font/soberanasans-black-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-black-webfont.woff') format('woff'),
+         url('font/soberanasans-black-webfont.ttf') format('truetype'),
+         url('font/soberanasans-black-webfont.svg#soberana_sansbold') format('svg');    
+}
+@font-face {
+    font-family: 'sansbold_italic';
+    src: url('font/soberanasans-blackitalic-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-blackitalic-webfont.woff') format('woff'),
+         url('font/soberanasans-blackitalic-webfont.ttf') format('truetype'),
+         url('font/soberanasans-blackitalic-webfont.svg#soberana_sansbold_italic') format('svg');
+}
+@font-face {
+    font-family: 'sans_lightbold';
+    src: url('font/soberanasans-bold-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-bold-webfont.woff') format('woff'),
+         url('font/soberanasans-bold-webfont.ttf') format('truetype'),
+         url('font/soberanasans-bold-webfont.svg#soberana_sans_lightbold') format('svg');
+}
+@font-face {
+    font-family: 'sans_lightBdIt';
+    src: url('font/soberanasans-bolditalic-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-bolditalic-webfont.woff') format('woff'),
+         url('font/soberanasans-bolditalic-webfont.ttf') format('truetype'),
+         url('font/soberanasans-bolditalic-webfont.svg#soberana_sans_lightBdIt') format('svg');
+}
+@font-face {
+    font-family: 'sansitalic';
+    src: url('font/soberanasans-italic-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-italic-webfont.woff') format('woff'),
+         url('font/soberanasans-italic-webfont.ttf') format('truetype'),
+         url('font/soberanasans-italic-webfont.svg#soberana_sansitalic') format('svg');
+}
+@font-face {
+    font-family: 'sanslight';
+    src: url('font/soberanasans-light-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-light-webfont.woff') format('woff'),
+         url('font/soberanasans-light-webfont.ttf') format('truetype'),
+         url('font/soberanasans-light-webfont.svg#soberana_soberana_sanslight') format('svg');
+}
+@font-face {
+    font-family: 'sanslight_italic';
+    src: url('font/soberanasans-lightitalic-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-lightitalic-webfont.woff') format('woff'),
+         url('font/soberanasans-lightitalic-webfont.ttf') format('truetype'),
+         url('font/soberanasans-lightitalic-webfont.svg#soberana_soberana_sanslight_italic') format('svg');
+}
+@font-face {
+    font-family: 'sansregular';
+    src: url('font/soberanasans-regular-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-regular-webfont.woff') format('woff'),
+         url('font/soberanasans-regular-webfont.ttf') format('truetype'),
+         url('font/soberanasans-regular-webfont.svg#soberana_sansregular') format('svg');
+}
+@font-face {
+    font-family: 'sansultra';
+    src: url('font/soberanasans-ultra-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-ultra-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-ultra-webfont.woff') format('woff'),
+         url('font/soberanasans-ultra-webfont.ttf') format('truetype'),
+         url('font/soberanasans-ultra-webfont.svg#soberana_sansultra') format('svg');
+}
+@font-face {
+    font-family: 'sansultra_italic';
+    src: url('font/soberanasans-ultraitalic-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-ultraitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-ultraitalic-webfont.woff') format('woff'),
+         url('font/soberanasans-ultraitalic-webfont.ttf') format('truetype'),
+         url('font/soberanasans-ultraitalic-webfont.svg#soberana_sansultra_italic') format('svg');
+}
+
+
+/*--------- INICIO DE CALIFICACIONES-------------*/
+#calif table{
+width:990px;
+border-spacing:0px;
+border-right:solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left:solid 1px #000000;
+
+}
+#calif td a{
+	color:#497F43;}
+#calif th{
+font: 12px "sans_lightbold", Calibri, sans-serif;
+    text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-top: solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left: solid 1px #000000;
+cellspacing:0px;
+}
+
+#calif td{
+	font: 10px "sanslight", Calibri, sans-serif;
+color:#333333;
+border-left: solid 1px #000000;
+border-left-style:dotted;
+border-top:solid 1px #666666;
+border-top-style:dotted;
+}
+
+#calif table .titulotabla {
+	text-align:center;
+	color:#ba2025; font: 15px "titularregular", Calibri, sans-serif; outline:none; text-decoration: none;
+	background:#FFFFFF;
+	border: 1px solid #999999;
+	padding: 10px;
+}
+
+#calif form table{
+border:none;}
+
+#calif input{
+	font-size: 11px;
+	background:#fafafa;
+border:none;
+text-align:right;
+}
+
+.cals{
+	width:28px;}
+/*---------- FIN DE CALIFICACIONES --------------*/
+
+/*IMPRESION DE REPORTES DE ACADEMICOS*/
+#seccion #registrosrep{
+    height: 360px;
+    background: none;
+}
+#seccion #registrosrep  table{
+width:990px;
+border-spacing:0px;
+border-right:solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left:solid 1px #000000;
+
+}
+#seccion #registrosrep td a{
+    color:#497F43;}
+#seccion #registrosrep th{
+font: 14px "sans_lightbold", Calibri, sans-serif;
+    text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-top: solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left: solid 1px #000000;
+font-weight: normal;}
+
+
+#seccion #registrosrep td{
+    font: 12px "sanslight", Calibri, sans-serif;
+color:#333333;
+border-left: solid 1px #000000;
+border-left-style:dotted;
+border-top:solid 1px #666666;
+border-top-style:dotted;
+}
+#seccion #registrosrep .reportedatos table{
+    border: none;
+}
+#seccion #registrosrep .reportedatos td{
+    font-size: 9px;
+    border: none;
+
+}
+#seccion #avance{
+	margin: 100px auto;
+	width: 800px;
+	font: 16px "sanslight", Calibri, sans-serif;
+	color: #000;
+	text-align: justify; 
+	text-decoration: none;
+}
+#seccion #avance .eslogan{
+	
+	font: 9px "titularregular", Calibri, sans-serif;
+	color: #000;
+	text-align: justify; 
+	text-decoration: none;
+}
+#seccion #avance .fecha{
+	
+	font: 16px "sanslight", Calibri, sans-serif;
+	color: #000;
+	text-align: right; 
+	text-decoration: none;
+}

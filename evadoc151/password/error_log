@@ -1,0 +1,184 @@
+[30-Nov-2017 16:35:05 UTC] PHP Warning:  include(../conexion.php): failed to open stream: No such file or directory in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 15
+[30-Nov-2017 16:35:05 UTC] PHP Warning:  include(): Failed opening '../conexion.php' for inclusion (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 15
+[30-Nov-2017 16:35:05 UTC] PHP Fatal error:  Call to undefined function conectar() in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 16
+[30-Nov-2017 16:35:20 UTC] PHP Warning:  include(../conexion.php): failed to open stream: No such file or directory in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 15
+[30-Nov-2017 16:35:20 UTC] PHP Warning:  include(): Failed opening '../conexion.php' for inclusion (include_path='.:/opt/alt/php55/usr/share/pear:/opt/alt/php55/usr/share/php') in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 15
+[30-Nov-2017 16:35:20 UTC] PHP Fatal error:  Call to undefined function conectar() in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 16
+[30-Nov-2017 16:36:41 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[30-Nov-2017 16:36:41 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[30-Nov-2017 16:36:41 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[30-Nov-2017 16:36:41 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[30-Nov-2017 16:36:41 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[30-Nov-2017 16:36:52 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[30-Nov-2017 16:36:52 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 5
+[30-Nov-2017 16:36:52 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 6
+[30-Nov-2017 16:36:52 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 36
+[30-Nov-2017 16:36:55 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 56
+[30-Nov-2017 16:41:04 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[30-Nov-2017 16:41:04 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[30-Nov-2017 16:41:04 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[30-Nov-2017 16:41:04 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[30-Nov-2017 16:41:04 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[30-Nov-2017 16:42:27 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[30-Nov-2017 16:42:27 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[30-Nov-2017 16:42:27 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[30-Nov-2017 16:42:27 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[30-Nov-2017 16:42:27 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[30-Nov-2017 16:42:34 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[30-Nov-2017 16:42:34 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 5
+[30-Nov-2017 16:42:34 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 6
+[30-Nov-2017 16:42:34 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 36
+[30-Nov-2017 16:42:35 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 56
+[30-Nov-2017 17:58:44 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[30-Nov-2017 17:58:44 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[30-Nov-2017 17:58:44 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[30-Nov-2017 17:58:44 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[30-Nov-2017 17:58:44 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[30-Nov-2017 17:58:49 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[30-Nov-2017 17:58:49 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 5
+[30-Nov-2017 17:58:49 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 6
+[30-Nov-2017 17:58:49 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 36
+[30-Nov-2017 17:58:50 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 56
+[30-Nov-2017 18:50:34 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[30-Nov-2017 18:50:34 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[30-Nov-2017 18:50:34 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[30-Nov-2017 18:50:34 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[30-Nov-2017 18:50:34 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[30-Nov-2017 18:52:13 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[30-Nov-2017 18:52:13 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 5
+[30-Nov-2017 18:52:13 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 6
+[30-Nov-2017 18:52:13 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 36
+[30-Nov-2017 18:52:14 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 56
+[30-Nov-2017 19:41:25 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[30-Nov-2017 19:41:25 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[30-Nov-2017 19:41:25 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[30-Nov-2017 19:41:25 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[30-Nov-2017 19:41:25 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[30-Nov-2017 19:41:43 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[30-Nov-2017 19:41:43 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 5
+[30-Nov-2017 19:41:43 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 6
+[30-Nov-2017 19:41:43 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 36
+[30-Nov-2017 19:41:43 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 56
+[30-Nov-2017 20:28:33 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[30-Nov-2017 20:28:33 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[30-Nov-2017 20:28:33 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[30-Nov-2017 20:28:33 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[30-Nov-2017 20:28:33 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[30-Nov-2017 20:28:41 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[30-Nov-2017 20:28:41 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 5
+[30-Nov-2017 20:28:41 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 6
+[30-Nov-2017 20:28:41 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 36
+[30-Nov-2017 20:28:41 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 56
+[30-Nov-2017 22:42:07 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[30-Nov-2017 22:42:07 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[30-Nov-2017 22:42:07 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[30-Nov-2017 22:42:07 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[30-Nov-2017 22:42:07 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[30-Nov-2017 22:42:11 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[30-Nov-2017 22:42:11 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 5
+[30-Nov-2017 22:42:11 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 6
+[30-Nov-2017 22:42:11 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 36
+[30-Nov-2017 22:42:12 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 56
+[01-Dec-2017 01:39:24 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[01-Dec-2017 01:39:24 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[01-Dec-2017 01:39:24 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[01-Dec-2017 01:39:24 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[01-Dec-2017 01:39:24 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[01-Dec-2017 01:39:41 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[01-Dec-2017 01:39:41 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 5
+[01-Dec-2017 01:39:41 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 6
+[01-Dec-2017 01:39:41 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 36
+[01-Dec-2017 01:39:42 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 56
+[01-Dec-2017 03:37:54 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[01-Dec-2017 03:37:54 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[01-Dec-2017 03:37:54 UTC] PHP Notice:  Undefined index: matricula in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[01-Dec-2017 03:37:54 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[01-Dec-2017 03:37:54 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[01-Dec-2017 03:37:54 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[01-Dec-2017 03:37:54 UTC] PHP Notice:  Undefined index: matricula in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[01-Dec-2017 03:37:54 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[01-Dec-2017 03:37:54 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 5
+[01-Dec-2017 03:37:54 UTC] PHP Notice:  Undefined index: matricula in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 5
+[01-Dec-2017 03:37:54 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 6
+[01-Dec-2017 03:37:54 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 6
+[01-Dec-2017 03:37:54 UTC] PHP Notice:  Trying to get property of non-object in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 36
+[01-Dec-2017 03:37:54 UTC] PHP Notice:  Trying to get property of non-object in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 39
+[01-Dec-2017 03:37:55 UTC] PHP Notice:  Trying to get property of non-object in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 56
+[01-Dec-2017 03:37:55 UTC] PHP Notice:  Trying to get property of non-object in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 59
+[01-Dec-2017 23:55:51 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[01-Dec-2017 23:55:51 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[01-Dec-2017 23:55:51 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[01-Dec-2017 23:55:51 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[01-Dec-2017 23:55:51 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[02-Dec-2017 03:42:28 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[02-Dec-2017 03:42:28 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[02-Dec-2017 03:42:28 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[02-Dec-2017 03:42:28 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[02-Dec-2017 03:42:28 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[02-Dec-2017 05:19:52 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[02-Dec-2017 05:19:52 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[02-Dec-2017 05:19:52 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[02-Dec-2017 05:19:52 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[02-Dec-2017 05:19:52 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[02-Dec-2017 05:20:02 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[02-Dec-2017 05:20:02 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 5
+[02-Dec-2017 05:20:02 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 6
+[02-Dec-2017 05:20:02 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 36
+[02-Dec-2017 05:20:02 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 56
+[03-Dec-2017 21:31:29 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[03-Dec-2017 21:31:29 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[03-Dec-2017 21:31:29 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[03-Dec-2017 21:31:29 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[03-Dec-2017 21:31:29 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[03-Dec-2017 21:31:47 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[03-Dec-2017 21:31:47 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 5
+[03-Dec-2017 21:31:47 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 6
+[03-Dec-2017 21:31:47 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 36
+[03-Dec-2017 21:31:48 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 56
+[04-Dec-2017 20:48:28 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[04-Dec-2017 20:48:28 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[04-Dec-2017 20:48:28 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[04-Dec-2017 20:48:28 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[04-Dec-2017 20:48:28 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[05-Dec-2017 22:04:25 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[05-Dec-2017 22:04:25 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[05-Dec-2017 22:04:25 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[05-Dec-2017 22:04:25 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[05-Dec-2017 22:04:25 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[05-Dec-2017 22:19:11 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[05-Dec-2017 22:19:11 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[05-Dec-2017 22:19:11 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[05-Dec-2017 22:19:11 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[05-Dec-2017 22:19:11 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[05-Dec-2017 22:19:36 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[05-Dec-2017 22:19:36 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 5
+[05-Dec-2017 22:19:36 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 6
+[05-Dec-2017 22:19:37 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 36
+[05-Dec-2017 22:19:37 UTC] PHP Notice:  Undefined property: stdClass::$nomal in /home/itiztapa/public_html/sapce171/evadoc151/password/correo.php on line 56
+[06-Dec-2017 16:55:44 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[06-Dec-2017 16:55:44 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[06-Dec-2017 16:55:44 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[06-Dec-2017 16:55:44 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[06-Dec-2017 16:55:44 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[19-Jun-2018 22:35:34 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[19-Jun-2018 22:35:34 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[19-Jun-2018 22:35:34 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[19-Jun-2018 22:35:34 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[19-Jun-2018 22:35:34 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[19-Jun-2018 22:39:56 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[19-Jun-2018 22:39:56 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[19-Jun-2018 22:39:56 UTC] PHP Notice:  Undefined index: matricula in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[19-Jun-2018 22:39:56 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[19-Jun-2018 22:39:56 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[19-Jun-2018 22:39:56 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[19-Jun-2018 22:39:56 UTC] PHP Notice:  Undefined index: matricula in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[19-Jun-2018 22:43:16 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[19-Jun-2018 22:43:16 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[19-Jun-2018 22:43:16 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[19-Jun-2018 22:43:16 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[19-Jun-2018 22:43:16 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11
+[19-Jun-2018 22:48:29 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[19-Jun-2018 22:48:29 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 5
+[19-Jun-2018 22:48:29 UTC] PHP Notice:  Use of undefined constant mail - assumed 'mail' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[19-Jun-2018 22:48:29 UTC] PHP Notice:  Undefined index: mail in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 6
+[19-Jun-2018 22:48:29 UTC] PHP Notice:  Use of undefined constant matricula - assumed 'matricula' in /home/itiztapa/public_html/sapce171/evadoc151/password/siguiente.php on line 11

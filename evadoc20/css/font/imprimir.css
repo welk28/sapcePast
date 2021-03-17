@@ -1,0 +1,428 @@
+@charset "utf-8";
+@font-face {
+    font-family: 'titularbold';
+    src: url('font/soberanatitular-bold-webfont.eot');
+    src: local('☺'),
+         url('font/soberanatitular-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanatitular-bold-webfont.woff') format('woff'),
+         url('font/soberanatitular-bold-webfont.ttf') format('truetype'),
+         url('font/soberanatitular-bold-webfont.svg#soberana_titularbold') format('svg');
+}
+@font-face {
+    font-family: 'titularregular';
+    src: url('font/soberanatitular-regular-webfont.eot');
+    src: local('☺'),
+         url('font/soberanatitular-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanatitular-regular-webfont.woff') format('woff'),
+         url('font/soberanatitular-regular-webfont.ttf') format('truetype'),
+         url('font/soberanatitular-regular-webfont.svg#soberana_titularregular') format('svg');    
+}
+@font-face {
+    font-family: 'sansbold';
+    src: url('font/soberanasans-black-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-black-webfont.woff') format('woff'),
+         url('font/soberanasans-black-webfont.ttf') format('truetype'),
+         url('font/soberanasans-black-webfont.svg#soberana_sansbold') format('svg');    
+}
+@font-face {
+    font-family: 'sansbold_italic';
+    src: url('font/soberanasans-blackitalic-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-blackitalic-webfont.woff') format('woff'),
+         url('font/soberanasans-blackitalic-webfont.ttf') format('truetype'),
+         url('font/soberanasans-blackitalic-webfont.svg#soberana_sansbold_italic') format('svg');
+}
+@font-face {
+    font-family: 'sans_lightbold';
+    src: url('font/soberanasans-bold-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-bold-webfont.woff') format('woff'),
+         url('font/soberanasans-bold-webfont.ttf') format('truetype'),
+         url('font/soberanasans-bold-webfont.svg#soberana_sans_lightbold') format('svg');
+}
+@font-face {
+    font-family: 'sans_lightBdIt';
+    src: url('font/soberanasans-bolditalic-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-bolditalic-webfont.woff') format('woff'),
+         url('font/soberanasans-bolditalic-webfont.ttf') format('truetype'),
+         url('font/soberanasans-bolditalic-webfont.svg#soberana_sans_lightBdIt') format('svg');
+}
+@font-face {
+    font-family: 'sansitalic';
+    src: url('font/soberanasans-italic-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-italic-webfont.woff') format('woff'),
+         url('font/soberanasans-italic-webfont.ttf') format('truetype'),
+         url('font/soberanasans-italic-webfont.svg#soberana_sansitalic') format('svg');
+}
+@font-face {
+    font-family: 'sanslight';
+    src: url('font/soberanasans-light-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-light-webfont.woff') format('woff'),
+         url('font/soberanasans-light-webfont.ttf') format('truetype'),
+         url('font/soberanasans-light-webfont.svg#soberana_soberana_sanslight') format('svg');
+}
+@font-face {
+    font-family: 'sanslight_italic';
+    src: url('font/soberanasans-lightitalic-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-lightitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-lightitalic-webfont.woff') format('woff'),
+         url('font/soberanasans-lightitalic-webfont.ttf') format('truetype'),
+         url('font/soberanasans-lightitalic-webfont.svg#soberana_soberana_sanslight_italic') format('svg');
+}
+@font-face {
+    font-family: 'sansregular';
+    src: url('font/soberanasans-regular-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-regular-webfont.woff') format('woff'),
+         url('font/soberanasans-regular-webfont.ttf') format('truetype'),
+         url('font/soberanasans-regular-webfont.svg#soberana_sansregular') format('svg');
+}
+@font-face {
+    font-family: 'sansultra';
+    src: url('font/soberanasans-ultra-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-ultra-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-ultra-webfont.woff') format('woff'),
+         url('font/soberanasans-ultra-webfont.ttf') format('truetype'),
+         url('font/soberanasans-ultra-webfont.svg#soberana_sansultra') format('svg');
+}
+@font-face {
+    font-family: 'sansultra_italic';
+    src: url('font/soberanasans-ultraitalic-webfont.eot');
+    src: local('☺'),
+         url('font/soberanasans-ultraitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/soberanasans-ultraitalic-webfont.woff') format('woff'),
+         url('font/soberanasans-ultraitalic-webfont.ttf') format('truetype'),
+         url('font/soberanasans-ultraitalic-webfont.svg#soberana_sansultra_italic') format('svg');
+}
+/* GENERAL ------------------------------------------------------------*/
+* {
+margin: 0px;
+padding: 0px;
+}
+
+header, section, footer, nav{
+display: block;
+}
+
+#cabecera{
+  display: none !important;
+}
+.liga a{
+display: none !important;
+}
+
+.avisono{
+	display: none !important;
+}
+#seccion #registros td .ligado{
+    display: none !important;
+}
+body {
+   color: #2F2F2F;
+   font: 12px "sanslight", Calibri, sans-serif;
+}
+
+
+#cuerpo {
+width: 980px;
+margin: 10px auto;
+text-align: left;
+}
+
+
+#titulo {
+	color:#ba2025; 
+	font: 14px "sanslight";
+	margin:5px;
+	padding: 5px;
+}
+
+#seccion {
+background-image:url(aguila.jpg); background-position:bottom, center ;
+background-repeat:no-repeat;
+	font-family:'sanslight';
+padding:0 ;
+float: left;
+width: 1000px;
+margin:10px 0px 10px 0px;
+height:850px;
+}
+.guardacal{
+	display:none !important;}
+#seccion .subtitulo{
+	display:none !important;}
+#seccion #header table{
+width:980px;
+border-left:none;
+border-top:none;
+border-right:none;
+	}
+	
+#seccion #header th{
+	font: 14px "sansultra", Calibri, sans-serif;
+    text-transform:  uppercase;
+	color:#B92025;
+	border-top:none;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;}
+
+#seccion #header td{
+	font: 12px "sanslight", Calibri, sans-serif;
+    text-transform:  uppercase;
+	border-top:none;
+	border-bottom:none;
+	border-left:none;
+	border-right:none;}
+	
+
+
+#seccion #registros{
+	height:700px;
+}
+
+#seccion #registros table{
+width:980px;
+border-spacing:0px;
+border-right:solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left:solid 1px #000000;
+
+}
+#seccion #registros td a{
+	color:#497F43;}
+#seccion #registros th{
+font: 14px "sans_lightbold", Calibri, sans-serif;
+    text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-top: solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left: solid 1px #000000;
+cellspacing:0px;}
+
+
+#seccion #registros td{
+	font: 12px "sanslight", Calibri, sans-serif;
+color:#333333;
+border-left: solid 2px #000000;
+border-left-style:dotted;
+border-top:solid 1px #666666;
+border-top-style:dotted;
+}
+
+/* boleta */
+#seccion #boleta{
+    height:500px;
+}
+
+#seccion #boleta table{
+width:980px;
+border-spacing:0px;
+border-right:solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left:solid 1px #000000;
+
+}
+#seccion #boleta td a{
+    color:#497F43;}
+#seccion #boleta th{
+font: 14px "sans_lightbold", Calibri, sans-serif;
+    text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-top: solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left: solid 1px #000000;
+cellspacing:0px;}
+
+
+#seccion #boleta td{
+    font: 12px "sanslight", Calibri, sans-serif;
+color:#333333;
+border-left: solid 1px #000000;
+border-left-style:dotted;
+border-top:solid 1px #666666;
+border-top-style:dotted;
+}
+/*sdfsdfsdf*/
+#seccion #header #revision table{
+width:980px;
+border-spacing:0px;
+border-right:solid 1px #000000;
+border-bottom:solid 1px #000000;
+
+}
+#seccion #header #revision td a{
+	color:#497F43;}
+#seccion #header #revision th{
+font: 14px "sans_lightbold", Calibri, sans-serif;
+    text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-top: solid 1px #000000;
+border-left: solid 1px #000000;
+cellspacing:0px;}
+
+
+#seccion #header #revision td{
+	font: 12px "sanslight", Calibri, sans-serif;
+
+border-left: solid 1px #000000;
+border-top:solid 1px #666666;
+}
+/*asdfadsf*/
+
+#seccion #registros table .titulotabla {
+	text-align:center;
+	color:#ba2025; font: 15px "titularregular", Calibri, sans-serif; outline:none; text-decoration: none;
+	
+	border: 1px solid #999999;
+	padding: 10px;
+}
+
+#espacio{
+	height:250px;
+	
+}
+/*--------- INICIO DE CALIFICACIONES-------------*/
+#seccion #calificareg table{
+width:980px;
+border-spacing:0px;
+border-right:solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left:solid 1px #000000;
+
+}
+#seccion #calificareg td a{
+	color:#497F43;}
+#seccion #calificareg th{
+font: 12px "sans_lightbold", Calibri, sans-serif;
+    text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-top: solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left: solid 1px #000000;
+cellspacing:0px;
+}
+
+#seccion #calificareg td{
+	font: 10px "sanslight", Calibri, sans-serif;
+color:#333333;
+border-left: solid 1px #000000;
+border-left-style:dotted;
+border-top:solid 1px #666666;
+border-top-style:dotted;
+}
+
+#seccion #calificareg table .titulotabla {
+	text-align:center;
+	color:#ba2025; font: 15px "titularregular", Calibri, sans-serif; outline:none; text-decoration: none;
+	background:#FFFFFF;
+	border: 1px solid #999999;
+	padding: 10px;
+}
+
+#seccion #calificareg form table{
+border:none;}
+
+#seccion #calificareg input{
+	font-size: 11px;
+	background:#fafafa;
+border:none;
+text-align:right;
+}
+
+.cals{
+	width:28px;}
+/*---------- FIN DE CALIFICACIONES --------------*/
+/* pie de pagina */
+#pie{
+width:980px;
+margin: 18px auto 0;
+}
+#pie p {
+    color: gray;
+    font-size: 11px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#titlepie{
+font-size:14px;
+	text-align:center;
+	border-bottom:double #dedede;
+	border-top:double #dedede;
+	}
+.bloqueo {
+    display: block;
+    height: 25px;
+	background:#666666;
+}
+ div .saltopag{
+	display:block;
+	page-break-before:always;}
+
+.SaltoDePagina
+{
+page-break-before:always;
+}
+.espacio{
+    height: 650px;
+}
+
+/*IMPRESION DE REPORTES DE ACADEMICOS*/
+#seccion #registrosrep{
+    height: 300px;
+    background: #eeeeee;
+}
+#seccion #registrosrep  table{
+width:1000px;
+border-spacing:0px;
+border-right:solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left:solid 1px #000000;
+
+}
+#seccion #registrosrep td a{
+    color:#497F43;}
+#seccion #registrosrep th{
+font: 14px "sans_lightbold", Calibri, sans-serif;
+    text-transform:  uppercase;
+text-align:center;
+color:#B92025;
+border-top: solid 1px #000000;
+border-bottom:solid 1px #000000;
+border-left: solid 1px #000000;
+font-weight: normal;}
+
+
+#seccion #registrosrep td{
+    font: 12px "sanslight", Calibri, sans-serif;
+color:#333333;
+border-left: solid 1px #000000;
+border-left-style:dotted;
+border-top:solid 1px #666666;
+border-top-style:dotted;
+}
+#seccion #registrosrep .reportedatos table{
+    border: none;
+}
+#seccion #registrosrep .reportedatos td{
+    font-size: 9px;
+    border: none;
+
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!--  Cabeceras para el navegador: title, meta-tags... -->
+</head>
+ 
+
+<body>
+  <div id="aqui">Arrastrar archivos aqui</div>  
+  <script>
+    function alarrastraraqui (e ) {
+      e.dataTransfer.dropEffect = 'copy';
+      return false;
+    }
+    function alsoltar (e ) {
+      // Obtenemos el nombre del primer archivo ( files[0] )
+      alert ( e.dataTransfer.files[0].fileName );
+    }
+    document.getElementById('aqui').ondragover = alarrastraraqui;
+    document.getElementById('aqui').ondrop = alsoltar;
+  </script>
+</body>
+</html>

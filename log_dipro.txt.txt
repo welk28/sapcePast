@@ -1,0 +1,11 @@
+18 08 2020
+creación de 
+	reporte/00_repcovidtic.php
+	reporte/00_repcovidadm.php
+	reporte/00_repcovidlog.php	
+
+modificación de usuarios.php
+	-se dividen los "reportes" en otro menú 
+	-se agrega a "reportes" los archivos creados con el nombre de 
+		"POSTCOVID TICS", "POSTCOVID ADM", "POSTCOVID LOG".
+

@@ -1,0 +1,28 @@
+[25-May-2018 15:06:23 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/itiztapa/public_html/sapce171/usuarios.php on line 1
+[25-May-2018 15:06:23 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[25-May-2018 15:06:23 UTC] PHP Notice:  Use of undefined constant evento - assumed 'evento' in /home/itiztapa/public_html/sapce171/usuarios.php on line 39
+[25-May-2018 15:06:23 UTC] PHP Notice:  Undefined index: evento in /home/itiztapa/public_html/sapce171/usuarios.php on line 39
+[25-May-2018 15:06:44 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/itiztapa/public_html/sapce171/usuarios.php on line 1
+[25-May-2018 15:06:44 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[25-May-2018 15:06:44 UTC] PHP Notice:  Use of undefined constant evento - assumed 'evento' in /home/itiztapa/public_html/sapce171/usuarios.php on line 39
+[25-May-2018 15:06:44 UTC] PHP Notice:  Undefined index: evento in /home/itiztapa/public_html/sapce171/usuarios.php on line 39
+[25-May-2018 15:06:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/itiztapa/public_html/sapce171/usuarios.php on line 1
+[25-May-2018 15:06:55 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[25-May-2018 15:06:55 UTC] PHP Notice:  Use of undefined constant evento - assumed 'evento' in /home/itiztapa/public_html/sapce171/usuarios.php on line 39
+[25-May-2018 15:06:55 UTC] PHP Notice:  Undefined index: evento in /home/itiztapa/public_html/sapce171/usuarios.php on line 39
+[25-May-2018 15:06:55 UTC] PHP Notice:  Undefined variable: iddepto in /home/itiztapa/public_html/sapce171/administrador/scicom/altaoficina.php on line 73
+[25-May-2018 15:06:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/itiztapa/public_html/sapce171/usuarios.php on line 1
+[25-May-2018 15:06:57 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[25-May-2018 15:06:57 UTC] PHP Notice:  Use of undefined constant evento - assumed 'evento' in /home/itiztapa/public_html/sapce171/usuarios.php on line 39
+[25-May-2018 15:06:57 UTC] PHP Notice:  Undefined index: evento in /home/itiztapa/public_html/sapce171/usuarios.php on line 39
+[25-May-2018 15:06:59 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/itiztapa/public_html/sapce171/usuarios.php on line 1
+[25-May-2018 15:06:59 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[25-May-2018 15:06:59 UTC] PHP Notice:  Use of undefined constant evento - assumed 'evento' in /home/itiztapa/public_html/sapce171/usuarios.php on line 39
+[25-May-2018 15:06:59 UTC] PHP Notice:  Undefined index: evento in /home/itiztapa/public_html/sapce171/usuarios.php on line 39
+[29-May-2018 14:41:28 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/itiztapa/public_html/sapce171/usuarios.php on line 1
+[29-May-2018 14:41:28 UTC] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/itiztapa/public_html/sapce171/conexion.php on line 17
+[29-May-2018 14:41:28 UTC] PHP Notice:  Undefined index: quien in /home/itiztapa/public_html/sapce171/usuarios.php on line 33
+[29-May-2018 14:41:28 UTC] PHP Notice:  Undefined index: usuario in /home/itiztapa/public_html/sapce171/usuarios.php on line 34
+[29-May-2018 14:41:28 UTC] PHP Notice:  Undefined index: periodo in /home/itiztapa/public_html/sapce171/usuarios.php on line 35
+[29-May-2018 14:41:28 UTC] PHP Notice:  Use of undefined constant evento - assumed 'evento' in /home/itiztapa/public_html/sapce171/usuarios.php on line 39
+[29-May-2018 14:41:28 UTC] PHP Notice:  Undefined index: evento in /home/itiztapa/public_html/sapce171/usuarios.php on line 39
