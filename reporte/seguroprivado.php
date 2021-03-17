@@ -65,7 +65,7 @@
 				<td align=''>$a->apm</td>
 				<td align=''>$a->nom</td>
 				<td align=''>$rfc</td> 
-				<td>$a->anio</td>
+				<td>$a->fecnac</td>
 				</tr>";
 			
     	}?>
