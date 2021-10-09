@@ -41,10 +41,17 @@ table{
 }
 
 .lateral{
-	width: 200px; /*espacio destinado a la foto, datos de jefatura, folio (si se meueve, mover tambien .calificaciones)*/
+	width: 200px; 
 	height: 285px;
-	padding-top: 720px;
+	padding-top: 280px;
 }
+
+.lateralespacio{
+	/* se sa la cantidad q se resta de lateral */
+	padding-top: 440px; 
+}
+
+
 .calificaciones{
 	width: 725px; /*despliegue de calificaciones e historial (si se mueve, mover tambien de .lateral)*/
 	height: 985px;

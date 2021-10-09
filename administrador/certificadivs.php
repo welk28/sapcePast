@@ -52,7 +52,10 @@ $fecha=date('d/m/Y');
 
     <!-- -->
     <aside class="lateral" >
-    <?php echo"  <p align='center' >No. DE CONTROL <br><b>$matricula</b></p>"; ?>            
+    <?php echo"  <p align='center' >No. DE CONTROL <br><b>$matricula</b></p>"; ?> 
+    <!-- se agrega esta clase para diferenciar la separacion del nero de control -->
+    <div class="lateralespacio"></div>    
+
       <br><br><p align='center'>REGISTRADO EN EL <br> DEPARTAMENTO DE <br> SERVICIOS ESCOLARES</p>
       <br><br><p align="left" class="datos"> <?php echo"
         CON NO. $ft->numero<br>
